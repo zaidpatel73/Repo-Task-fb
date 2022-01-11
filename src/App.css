@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.dispn{
+  display: none;
+}
+
+
+
+/******************************Navigation Bar*******************************/
+.nav{
+  position: sticky;
+  top: 0;
+  display: flex;
+  background-color: #1877f2;
+  width: 100%;
+}
+.nav-center{
+  margin-left:22%;
+  width: 50%;
+  display: flex;
+}
+.nav #logo{
+  padding:0px 12px;
+  background-color: white;
+  font-size: xx-large;
+  font-weight: bold;
+  color: #1877f2;
+}
+.nav #search{
+  height: 30px;
+  margin:5px;
+  padding-right:50%;
+}
+.nav-right{
+  display: flex;
+  margin: 0 auto;
+}
+.nav-right a{
+  padding: 7px;
+  font-size: 1.1em;
+  font-weight: 700;
+  color: rgba(204, 204, 196, 0.815);
+  /* border-right:1px solid white;
+  border-left:1px solid white ; */
+  
+}
+.nav-right a:hover{
+  color: rgb(255, 255, 255);
+  /* border-bottom: 2px solid white; */
+  outline: 1px solid whitesmoke;
+  cursor: pointer;
+}
+
+.nav-right #heart:hover{
+  /* border-bottom: 2px solid red;  */
+  color: rgb(253, 2, 2);
+
+}
+
+
+/******************************Feed*******************************/
+
+.feed-bg{
+  background-color: rgb(218, 218, 218);
+  padding: 5px;
+  width: 100%; 
+}
+.feed-post{
+  margin-bottom: 10px;
+  /* padding-top: 10px; */
+  margin-left:25%;
+  width: 48%;
+  overflow: hidden;
+  background-color: white;
+  padding: 15px;
+  border-radius:10px;
+  box-shadow: 1px 1px 5px gray;
+}
+.post-header{
+  display: flex;
+  border-bottom:1px solid rgba(128, 128, 128, 0.356);
+}
+.post-header i{
+  color: gray;
+  font-size: 2.5em;
+  padding: 10px;
+}
+.post-header input{
+  /* height: 30px; */
+  margin:10px;
+  padding:15px 200% 15px 10px;
+  border: 0;
+  background-color: rgb(243, 243, 251);
+  border-radius: 50px;
+}
+.post-header input:hover{
+  background-color: rgb(223, 223, 248);
+}
+.post-header input:focus{
+  outline: 0;
+}
+.post-footer{
+  display: flex;
+  justify-content: space-evenly;
+}
+.post-footer button{
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: hidden;
+  cursor: pointer;
+  color: gray;
+  background-color: transparent;
+  font-size: 1em;
+}
+.post-footer #video{
+  color: #F35369;
+}
+.post-footer #pic{
+  color: #00A400;
+}
+.post-footer #act{
+  color:#F5C33B;
+}
+.feed-card{
+  margin-left:25%;
+  margin-bottom: 10px;
+  width: 48%;
+  padding-top: 10px;
+  overflow: hidden;
+  background-color: white;
+  padding: 15px;
+  border-radius:10px;
+  box-shadow: 1px 1px 5px gray;
+}
+.card-header{
+  display: flex;
+  padding: 10px;
+
+}
+.card-header i{
+  color: gray;
+  font-size: 1.5em;
+}
+.card-header a{
+  font-size: 1em;
+  padding-left: 10px;
+  color: #1877f2;
+}
+.card-content{
+  overflow: hidden;
+}
+.card-content img{
+  /* height: 100vh; */
+  width: 100%;
+}
+
+.card-liked{
+  color: #1877f2;
+}
+
+.card-footer{
+  display: flex;
+  border-top:1px solid gray;
+  overflow: hidden;
+}
+.card-footer button{
+  /* padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px; */
+  padding: 15px 25px 5px 25px;
+  border: hidden;
+  cursor: pointer;
+  color: gray;
+  background-color: transparent;
+}
+.card-footer button:hover{
+  color: #1877f2;
+  /* outline: 2px solid #1877f2;  */
+}
+
+.card-footer #liked{
+  color: #1877f2;
+}
+.card-footer #disliked{
+  /* color:white; */
+  /* background-color: black; */
+}
+.card-footer #comment{
+}
+.card-footer #share{
+}
